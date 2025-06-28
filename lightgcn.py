@@ -444,9 +444,6 @@ if __name__ == '__main__':
                     count_dec = 0
                     best_ndcg = ndcg
                     best_hr = hr
-                    # if len(save_dir) > 0:
-                    #     torch.save(model.state_dict(), save_dir + '/model' + '.pth')
-                    #     torch.save(model.user_mat.weight.detach().cpu().numpy(), save_dir + '/user_mat' + '.npy')
                 else:
                     count_dec += 1
 
